@@ -1,5 +1,4 @@
 
-
 Function in R
 =============
 Use function
@@ -7,7 +6,7 @@ Use function
 + __Formal arguements__
 	+ Formal arguements are the arguements included in the 
 function definition. 
-	+ Can use *formals* function to returrn all formal arguents.
+	+ Can use ```formals``` function to returrn all formal arguents.
 		 
 	```
 	> formals(rnorm)
@@ -23,7 +22,7 @@ function definition.
 		+ 1st: Exact name match 
 		+ 2nd: Partial name match
 		+ 3rd: Position match
-	+ Arguments can be checkeded using _args()_ function.
+	+ Arguments can be checkeded using ```args()``` function.
 		
 		```
 		> args(rnorm)
@@ -34,7 +33,6 @@ Define function
 ---------------
 + **Property**
 	+ Function can be nested( stuctured function).
-	+ Function 
 + __General Code Example__
 
 	```
