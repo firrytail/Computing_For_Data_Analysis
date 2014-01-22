@@ -32,7 +32,8 @@ function definition.
 Define function
 ---------------
 + **Property**
-	+ Function can be nested( stuctured function).
+	+ Function can be nested( stuctured function). 
+	+ Funtion and non-function in R are using different namespace, so it's possible we have an object and a function has a same name. 
 + __General Code Example__
 
 	```
