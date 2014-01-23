@@ -13,11 +13,6 @@ complete <- function(directory, id = 1:332) {
   ## where 'id' is the monitor ID number and 'nobs' is the
   ## number of complete cases
   source('getmonitor.R')
-  tid <- as.vector(as.integer(id))
-  if (tid < 1 || tid > 332) {
-    print("id must in 1:332")
-    stop()
-  }
   result.rownum<-length(id)
   result <- data.frame(id = integer(result.rownum), nobs = integer(result.rownum))
   for(i in 1:result.rownum){
